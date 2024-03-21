@@ -7,4 +7,4 @@ var wishList = new Schema({
     products:[{type: ObjectId, ref:'Product'}]
 });
 
-module.exports = mongoose.model('WishList',wishList);
+module.exports = mongoose.model('WishList',wishList);var mongoose = require('mongoose');
